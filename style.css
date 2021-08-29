@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* First step to make any website */
+
+nav{
+    display: flex;
+
+    align-items: center;
+    /* allign content in centre vertically */
+
+    justify-content: center;
+    /* allign content in centre horizontally */
+
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+.content{
+    font-family: 'Potta One', cursive;
+}
+
+.container{
+    /* background-color: red; */
+   
+    width: 50vw;
+    margin: auto;
+    font-family: 'Potta One', cursive;
+    font-size: 33px;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+.logo{
+    padding: 0px 13px;
+}
+.logo img{
+    width: 44px;
+}
+
+.toolbar-item button{
+    cursor: pointer;
+}
+/* Inspect manually just look the class present in prism.css */
